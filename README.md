@@ -1,5 +1,6 @@
-# Empty Liferay portlet.
+# Test with friendly URL
 
-Test friendlyUrl behaviour in combo with h:link
+h:links seem to not function when friendlyURLs are present. To test:
 
-Note : not all Maven dependecies are free (Primefaces, Liferay EE)
+- build the portlet as as. h:link navigation works (from view.xhtml to target.xhtml and back)
+- uncomment the friendly-url entries in liferay-portlet.xml. h:link navigation is broken
