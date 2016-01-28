@@ -11,7 +11,7 @@
 
 	<properties>
 		<jsf.version>2.2.12</jsf.version>
-		<primefaces.version>5.3.4</primefaces.version>
+		<primefaces.version>5.2.10</primefaces.version>
 		<liferayfaces.version>4.2.5-ga6</liferayfaces.version>
 	</properties>
 

@@ -5,11 +5,9 @@
 	<portlet>
 		<portlet-name>friendly-url-test-portlet</portlet-name>
 		<icon>/icon.png</icon>
-		<!--
 		<friendly-url-mapper-class>com.liferay.portal.kernel.portlet.DefaultFriendlyURLMapper</friendly-url-mapper-class>
 		<friendly-url-mapping>urltest</friendly-url-mapping>
 		<friendly-url-routes>nl/ou/test/urltest-friendly-url-routes.xml</friendly-url-routes>
-		-->
 		<instanceable>false</instanceable>
 		<requires-namespaced-parameters>false</requires-namespaced-parameters>
 		<ajaxable>false</ajaxable>
